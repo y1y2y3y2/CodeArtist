@@ -9,3 +9,11 @@
               color:aquamarine;
               cursor: pointer;
             }
+.services {
+    background-color:chartreuse;
+    padding: 50px 0;
+}
+.call-to-action {
+    background-color: chartreuse;
+     padding: 25px ;
+}
