@@ -1,4 +1,16 @@
- #gotop {
+#gov{
+    /*各局處*/
+    font-size-adjust:auto;
+    font-style: normal;
+    color: darkslategray;
+    text-align: center;
+    background-color:chartreuse;
+    padding:8px;
+    align-content: center; 
+    
+} 
+
+#gotop {
               display: none;
               position: fixed;
               right: 20px;
@@ -9,3 +21,26 @@
               color:aquamarine;
               cursor: pointer;
             }
+
+#service{
+    background-color:chartreuse;
+    padding: 50px 0;
+}
+.call-to-action {
+    background-color: chartreuse;
+     padding: 25px ;
+
+.blur { 
+    z-index: -2;
+    background-color:aliceblue;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+	filter: url(blur.svg#blur); 
+	-webkit-filter: blur(10px); 
+	-moz-filter: blur(10px);
+	-ms-filter: blur(10px);    
+	filter: blur(10px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); 
+>>>>>>> origin/master
+}
