@@ -9,6 +9,7 @@
               color:aquamarine;
               cursor: pointer;
             }
+<<<<<<< HEAD
 .services {
     background-color:chartreuse;
     padding: 50px 0;
@@ -16,4 +17,18 @@
 .call-to-action {
     background-color: chartreuse;
      padding: 25px ;
+=======
+.blur { 
+    z-index: -2;
+    background-color:aliceblue;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+	filter: url(blur.svg#blur); 
+	-webkit-filter: blur(10px); 
+	-moz-filter: blur(10px);
+	-ms-filter: blur(10px);    
+	filter: blur(10px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); 
+>>>>>>> origin/master
 }
