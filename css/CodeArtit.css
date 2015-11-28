@@ -1,12 +1,15 @@
 #gov{
     /*各局處*/
-    font-size-adjust:30;
+    font-size-adjust:auto;
     font-style: normal;
     color: darkslategray;
     text-align: center;
     background-color:chartreuse;
-    padding:20px;
+    padding:8px;
+    align-content: center; 
+    
 } 
+
 #gotop {
               display: none;
               position: fixed;
@@ -18,15 +21,15 @@
               color:aquamarine;
               cursor: pointer;
             }
-<<<<<<< HEAD
-.services {
+
+#service{
     background-color:chartreuse;
     padding: 50px 0;
 }
 .call-to-action {
     background-color: chartreuse;
      padding: 25px ;
-=======
+
 .blur { 
     z-index: -2;
     background-color:aliceblue;
