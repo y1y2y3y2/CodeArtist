@@ -1,4 +1,13 @@
- #gotop {
+#gov{
+    /*各局處*/
+    font-size-adjust:30;
+    font-style: normal;
+    color: darkslategray;
+    text-align: center;
+    background-color:chartreuse;
+    padding:20px;
+} 
+#gotop {
               display: none;
               position: fixed;
               right: 20px;
