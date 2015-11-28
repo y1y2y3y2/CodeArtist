@@ -1,3 +1,10 @@
+#welcome{
+    font-size: 20px;
+     font-family: monospace;
+    background-color: chartreuse;
+    padding 5px;
+    
+}
 #gov{
     /*各局處*/
     font-size-adjust:auto;
