@@ -16,7 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-
+    <link href="css/CodeArtit.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -28,6 +28,23 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">/*回到最上面的JS*/
+       $(function(){
+          $("#gotop").click(function(){
+            jQuery("html,body").animate({
+            scrollTop:0
+            },1000);
+          });
+       $(window).scroll(function() {
+         if ( $(this).scrollTop() > 500){
+            $('#gotop').fadeIn("fast");
+          } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
 </head>
 
 <body>
@@ -299,7 +316,7 @@
         });
     });
     </script>
-
+<div id="gotop">˄</div><!--回到最上面-->
 </body>
 
 </html>
