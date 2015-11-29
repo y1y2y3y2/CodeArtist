@@ -1748,6 +1748,7 @@
 
 	p {
 		margin: 0 0 2.25em 0;
+        color:#111;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1860,7 +1861,7 @@
 	}
 
 	header p {
-		color: #aaa;
+		color: #111;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1891,7 +1892,7 @@
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #111;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
