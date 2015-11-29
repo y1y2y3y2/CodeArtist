@@ -20,21 +20,25 @@
 #gotop {
               display: none;
               position: fixed;
-              right: 20px;
+              right: 5px;
               bottom: 20px;    
-              padding: 10px 15px;    
+              padding: 10px 20px;    
               font-size: 20px;
               background: #777;
-              color:aquamarine;
+              color:aliceblue;
               cursor: pointer;
             }
-
+#gotop:hover{
+    background:aliceblue; 
+    color:#777;
+    padding: 15px 25px;   
+}
 #service{
-    background-color:chartreuse;
+    background-color:lightgreen;
     padding: 50px 0;
 }
 .call-to-action {
-    background-color: chartreuse;
+    background-color: lightgreen;
      padding: 25px ;
 
 .blur { 
